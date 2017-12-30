@@ -25,7 +25,14 @@ The .loopbackrc file is in JSON format, for example:
             "client_x509_cert_url": "client_x509_cert_url"
         },
         "databaseURL": "databaseURL",
-        "databaseAuthVariableOverride": "opcional"
+        "databaseAuthVariableOverride": "admin" // optional
+    }
+
+## Running databaseAuthVariableOverride firebase roles
+
+    "mymodels": {
+        ".read": "auth.uid === 'admin' ",
+        ".write": "auth.uid === 'admin' "
     }
 
 ## Running tests
