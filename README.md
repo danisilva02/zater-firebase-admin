@@ -11,7 +11,7 @@ The .loopbackrc file is in JSON format, for example:
 
     "teste": {
         "name": "teste",
-        "connector": "zater-firebase-admin",
+        "connector": "loopback-connector-zater-firebase-admin",
         "serviceAccount": {
             "type": "service_account",
             "project_id": "project_id",
