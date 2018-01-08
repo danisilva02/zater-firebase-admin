@@ -26,6 +26,7 @@
   "dependencies": {
     "async": "^0.9.0",
     "firebase": "^2.2.3",
+    "firebase-admin": "^5.7.0",
     "loopback-connector": "^1.2.1",
     "loopback-datasource-juggler": "^2.25.0"
   },
