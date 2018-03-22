@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-zater-firebase-admin",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Loopback Connector for firebase admin NoSql Database. LoopBack is an API Mgmt/MBaas platform built on top of express by Strongloop. It supports the notion of connectors to connect to databases, restful web services, soap web services etc. This project is a connector for loopback for connecting to Redis Database.",
   "main": "index.js",
   "scripts": {
