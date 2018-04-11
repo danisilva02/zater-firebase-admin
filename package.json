@@ -26,8 +26,9 @@
   "dependencies": {
     "async": "^0.9.0",
     "firebase": "^2.2.3",
-    "firebase-admin": "^5.7.0",
-    "node-async-loop": "^1.2.2"
+    "firebase-admin": "^5.12.0",
+    "node-async-loop": "^1.2.2",
+    "loopback-connector": "^4.4.0",
   },
   "devDependencies": {
     "istanbul": "^0.3.7",
